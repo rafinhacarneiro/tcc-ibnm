@@ -1,0 +1,24 @@
+/* Fade transition for carousel items */
+.carousel-fade .item {
+    left: 0 !important;
+      -webkit-transition: opacity .6s; /*adjust timing here */
+         -moz-transition: opacity .6s;
+           -o-transition: opacity .6s;
+              transition: opacity .6s;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
+
+/* http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide */

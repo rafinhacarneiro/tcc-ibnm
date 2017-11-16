@@ -1,0 +1,27 @@
+<div class="container">
+	<div class="col-md-10">
+	
+	<div class="row row-offcanvas row-offcanvas-right">
+		<h1 class="featurette-heading">Nossa história</h1>
+		<hr class="featurette-divider">
+		<p align="justify">O trabalho batista no bairro Novo Mundo, em Curitiba, teve início no ano de 1954 com a Congregação Batista do Novo Mundo, na Avenida República Argentina, numa pequena casa ao lado do muro do quartel. A Congregação era trabalho da Igreja Batista Memorial de Curitiba, sendo o seu líder o Pastor Haroldo Hipólito Bertrand, junto com sua esposa, irmã Anita.A Igreja Batista do Novo Mundo foi organizada no dia 1º de dezembro de 1956 com 43 membros. É difícil saber informações a respeito de todos os 43 membros-fundadores, mas hoje sabemos que um está vivo: a irmã Terezinha de Jesus Ansay Silva. O primeiro fruto do trabalho foi o irmão Arcelino Araújo de Oliveira (já falecido). Alguns meses após a organização da Igreja (que seria a 8º Igreja Batista de Curitiba), adquiriu-se um terreno logo mais à frente, na mesma Avenida, número 4235. A propriedade ali existente era um “botequim”, ou “bar”, que se transformou em casa de cultos, sede da Igreja.</p>
+		<p align="justify">Seu primeiro pastor foi Enoque Balbino de Lima e seu vice-moderador o irmão Pedro Seraphim. Após 14 meses de pastorado, o Pastor Enoque se desligou, vindo em seu lugar o Pastor Rodney B. Wolfard, num período de interinidade um pouco longa. Seu primeiro evangelista foi o irmão Jorge Novac. Após Rodney, veio o Pastor Paulo Gailiti. Nessa época, um grupo saiu e fundou uma nova igreja batista em Curitiba. Sucedendo Paulo Gailit, que também foi interino, veio o Pastor Osvaldo Soares dos Santos, gestão na qual a Igreja vendeu o terreno da Avenida República Argentina e adquiriu os dois lotes em que hoje se encontra o templo (Rua Cel. Herculano de Araújo, 215), cuja pedra fundamental foi lançada no dia 11 de setembro de 1963. A construção foi terminada apenas 13 anos mais tarde.</p>
+		<p align="justify">Saiu o Pastor Osvaldo Soares dos Santos e entrou o Pastor Arthur Helder, missionário inglês. Com a saída de Helder, assume a liderança o irmão Aracy Assis Ribeiro como evangelista, tarefa interrompida com uma morte acidental. Substituiu-o o irmão Antônio Volcov, que passou a liderança ao Pastor Avelino Ferreira, esse ao Pastor Gene Wilson, que deu lugar ao missionário Pastor Eric Westwood, também em caráter de interinidade. No dia 04 de outubro de 1976 assumiu o Pastor Joel Leite Lopes, que ficou à frente do pastorado até fevereiro de 1985.</p>
+		<p align="justify">Com sua saída, a Igreja contou com o trabalho do líder de sua congregação, o Pastor Vicente Cropolato Neto, que assume a liderança interinamente, passando o bastão ao Pastor Derek Punchard, também em caráter de interinidade, de janeiro de 1985 a fevereiro de 1986. Neste mês, assume a liderança o Pastor Dely Valeriano Moreira, desenvolvendo um pastorado que se estendeu de fevereiro de 1986 a julho de 1988. Com sua saída, assume o ministério da igreja o Pastor Osnildo Walter Vieira, para um longo período que vai de dezembro de 1988 até fevereiro de 2000.</p>
+		<p align="justify">Com sua saída, assume o evangelista Eiron Gonçalves de Miranda, cuja liderança foi de março a novembro daquele ano. No dia 02 de dezembro de 2000, toma posse o Pastor Dálvio de Oliveira, para um ministério que vai até dezembro de 2002. Em janeiro de 2003, vem interinamente o Pastor Jaziel Guerreiro Martins, permanecendo até a posse do Pastor Israel Francisco, que liderou o ministério pastoral de março de 2004 até julho de 2010.</p>
+		<p align="justify">No dia 1º de abril de 2012, o Pastor Antônio Valdemar Kukul Filho tomou posse como pastor titular da IBNM, após exercer um período de liderança espiritual interina. Nos pastorados de Osnildo Walter Vieira, Dálvio de Oliveira e Jaziel Guerreiro Martins, a igreja contava com duas congregações na Região Metropolitana de Curitiba: na Fazenda Rio Grande e em Araucária. Na Fazenda Rio Grande sob os cuidados dos Pastores Francelino Ferreira Barbosa, Alverindo da Silva e Ciomar Agostinho Finato. Este último tomou posse como pastor daquela congregação, organizada em igreja em 13 de dezembro de 2003.</p>
+		<p align="justify">A Congregação em Araucária, criada em 1998, se tornou a Terceira Igreja Batista daquela cidade no dia 09 de maio de 2009, tendo como pastor José de Jesus Montanari, que já liderava os trabalhos naquele local. Venha nos fazer uma visita! Faça parte da continuação desta história. Até agora, os desafios foram muitos. E muitos outros virão. Em meio aos problemas dessa vida, o que prevalece e permanece são as coisas grandiosas que Deus já fez entre nós e que também pode fazer na sua vida. O que sabemos é que o Senhor nos ensinou e acolheu durante todos esses anos. Que Deus lhe abençõe!</p>
+	</div>
+	</div>
+	
+	<div class="col-md-2">
+		<div class="list-group"><center>
+			<a href="<?= site; ?>/sobre/historia" class="list-group-item">Nossa história</a>
+			<a href="<?= site; ?>/sobre/visao" class="list-group-item">Visão e missão</a>
+			<a href="<?= site; ?>/sobre/crenca" class="list-group-item">Crença</a>
+			<a href="<?= site; ?>/sobre/propositos" class="list-group-item">Propósitos</a>
+			<a href="<?= site; ?>/sobre/instituicao" class="list-group-item">Estatuto e Instituição</a>
+			<a href="<?= site; ?>/sobre/ministerios" class="list-group-item">Ministérios</a>
+		</center></div>
+	</div>
+</div>

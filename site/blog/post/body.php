@@ -1,0 +1,13 @@
+<?php
+	include_once("conexao_bd.php");	$site = site;	$img = img;		@$q = $_GET["q"];        	if(!$q){		header("location: $site/blog");	}    	$t1 = explode("-", $q);	$t2 = implode(" ", $t1);		$sql = "SELECT * FROM blog WHERE blog_titulo = '$t2'";	$query = mysql_query($sql);		function data($dbd){		$s1 = explode(" ", $dbd);		$s2 = $s1[0];		$s3 = explode("-", $s2);				$dia = $s3[2];		$mes = $s3[1];		$ano = $s3[0];				return "$dia/$mes/$ano";	}		function hora($dbd){		$s1 = explode(" ", $dbd);		$s2 = $s1[1];		$s3 = explode(":", $s2);				$h = $s3[2];		$min = $s3[1];		$seg = $s3[0];				return $h."h ".$min."min ".$seg."seg";	}		function tag($tdb){		return explode(" ", $tdb);	}
+?>
+<div class="container">	<div class="row row-offcanvas row-offcanvas-right">
+	<!-- Chamadas Blog -->
+	<?php
+		$result = mysql_fetch_array($query);
+		$foto = $result["blog_imagem"];        $titulo = $result["blog_titulo"];        $resumo = $result["blog_resumo"];		$post = $result["blog_post"];        $id = $result["blog_id"];		$rdata = $result["blog_data"];		$data = data($result["blog_data"]);		$hora = hora($result["blog_data"]);		$tag = tag($result["blog_tag"]);				$a1 = $result["log_id"];		$a2 = mysql_fetch_array(mysql_query("SELECT log_nome FROM login WHERE log_id='$a1'"));		$autor = $a2["log_nome"];				$c1 = $result["cat_id"];		$c2 = mysql_fetch_array(mysql_query("SELECT cat_nome FROM categorias WHERE cat_id='$c1'"));		$cat = $c2["cat_nome"];				echo("			<a class='btn btn-default' href='".site."/blog'><span class='glyphicon glyphicon-arrow-left' aria-hidden='true'></span> Voltar</a>						<hr class='featurette-divider'>
+			<div class='row featurette'>				<div class='col-md-8 col-xs-6'>					<p style='font-size: 0.8em'><em>Postado por $autor. Atualizado <a href='".site."/busca?pesquisa=$rdata'>$data</a> às $hora</em></p>		
+					<h2 class='featurette-heading'>$titulo</h2>					<p class='lead'>$resumo</a></p>				</div>								<div class='col-md-4 col-xs-6'>
+					<img class='featurette-image img-responsive center-block' src='$img/upload/$foto' alt='$titulo'>
+				</div>			</div>		");				echo ("<p style='font-size: 0.8em'><em>Categoria: <a href='".site."/busca?pesquisa=$cat'>$cat</a>. Tags: ");							for($i=0; $i < count($tag); $i++){			$tagi = $tag[$i];			echo("<a href='".site."/busca?pesquisa=$tagi'>$tagi</a> ");		}							echo ("</em></p>");				echo("			<hr class='featurette-divider'>		");				echo("			<div class='col-md-12 col-xs-12'>				<p>$post</p>			</div>			");	?>	</div>	<hr class='featurette-divider'>
+</div>

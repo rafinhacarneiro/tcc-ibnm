@@ -1,0 +1,4 @@
+[14-Nov-2015 15:00:35 America/Chicago] PHP Notice:  Undefined variable: senha in /home/pontokc/public_html/3_tecnico/rafael/ibnm/php/conexao.php on line 28
+[14-Nov-2015 15:03:07 America/Chicago] PHP Notice:  Undefined variable: senha in /home/pontokc/public_html/3_tecnico/rafael/ibnm/php/conexao.php on line 28
+[14-Nov-2015 15:03:08 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/pontokc/public_html/3_tecnico/rafael/ibnm/php/checa_login.php on line 2
+[14-Nov-2015 15:03:36 America/Chicago] PHP Notice:  Undefined variable: senha in /home/pontokc/public_html/3_tecnico/rafael/ibnm/php/conexao.php on line 28
