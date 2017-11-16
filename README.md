@@ -1,4 +1,4 @@
-# tcc-ibnm
+# TCC - Site para Igreja Batista Novo Mundo (IBNM)
 Projeto de TCC para o Técnico de Informática no Col. Est. Pedro Macedo (dez/2015)
 
 O que foi usado:
